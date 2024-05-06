@@ -1,4 +1,4 @@
-**Project Manifest: Motion Tracking for Virtual Production using TensorFlow/PyTorch**
+**Project Manifest: Motion Tracking, object recognition and depthmap estimation for Virtual Production using TensorFlow/PyTorch**
 
 **Overview:**
 This project aims to develop a cost-effective, high-performance, real-time motion tracking system tailored for virtual production applications. By leveraging deep learning techniques, frameworks like TensorFlow or PyTorch, and cloud-based resources like Google Colab, the system will enable accurate tracking of actors, props, and other objects in a production environment, facilitating seamless integration of virtual elements with live-action footage without the need for expensive local hardware.
@@ -19,7 +19,7 @@ This project aims to develop a cost-effective, high-performance, real-time motio
     - Data augmentation techniques (e.g., random cropping, flipping, noise injection)
     - Data normalization and format conversion
 4. **Model Architecture (Google Colab):**
-    - Convolutional Neural Networks (CNNs) for object detection and pose estimation and depth estimation.
+    - Convolutional Neural Networks (CNNs) for object detection (or we can use existing object recognition models like yolo) and pose estimation and depth estimation.
     - Recurrent Neural Networks (RNNs) or Transformers for temporal modeling and tracking
     - Multi-task learning architectures for joint detection, pose estimation, and tracking
     - Integration with conventional motion capture data (if applicable)
