@@ -8,18 +8,18 @@ This project aims to develop a cost-effective, high-performance, real-time motio
 **Hardware:**
 1. **Local Workstation:** A workstation or PC with a decent CPU and GPU for local data processing, visualization, and inference.
 2. **Multi-camera Setup:** Synchronized array of high-resolution RGB cameras with global shutter and infrared support.
-3. **Depth Sensors (Optional):** Time-of-Flight (ToF) or structured light depth sensors for depth map acquisition.
-4. **Motion Capture Suits/Markers (Optional):** Specialized suits or marker setups for actor tracking and motion capture.
+3. **Depth Sensors:** Time-of-Flight (ToF) or structured light depth sensors for depth map acquisition.
+4. **Motion Capture Suits/Markers:** Specialized suits or marker setups for actor tracking and motion capture.
 
 **Software:**
 1. **Deep Learning Framework:** TensorFlow or PyTorch with appropriate libraries and dependencies.
 2. **Google Colab:** Jupyter notebooks hosted on Google Colab for data processing, model training, and large-scale computations.
 3. **Data Acquisition and Preprocessing (Local Workstation):**
-    - Modules for capturing and synchronizing data from multi-camera and depth sensor setups
+    - Modules for capturing and synchronizing data from multi-camera, motion tracking suit and depth sensor setups
     - Data augmentation techniques (e.g., random cropping, flipping, noise injection)
     - Data normalization and format conversion
 4. **Model Architecture (Google Colab):**
-    - Convolutional Neural Networks (CNNs) for object detection and pose estimation
+    - Convolutional Neural Networks (CNNs) for object detection and pose estimation and depth estimation.
     - Recurrent Neural Networks (RNNs) or Transformers for temporal modeling and tracking
     - Multi-task learning architectures for joint detection, pose estimation, and tracking
     - Integration with conventional motion capture data (if applicable)
@@ -53,5 +53,3 @@ This project aims to develop a cost-effective, high-performance, real-time motio
 - Integrate with additional sensors (e.g., IMUs, skeletal tracking) for improved accuracy
 - Develop cloud-based deployment strategies for large-scale production environments
 - Explore applications in domains like live broadcasts, virtual reality, and performance capture
-
-By leveraging Google Colab's powerful GPU and TPU resources for data processing and model training, this project aims to deliver a cost-effective and high-performance motion tracking solution for virtual production applications without the need for expensive local hardware. This approach allows for scalability and flexibility while enabling real-time inference and tracking on local workstations for seamless integration with virtual production software and game engines.
