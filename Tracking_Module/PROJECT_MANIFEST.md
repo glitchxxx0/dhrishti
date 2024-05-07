@@ -1,12 +1,12 @@
-**Project Manifest: Tracking Module for Virtual Production**
+## Project Manifest: Tracking Module for Virtual Production | Author - Deepak Kumar Soni
 
-**Overview:**
+# Overview:
 Develop an embedded system for 6DoF (6 Degrees of Freedom) motion tracking using sensor fusion of IMU and optical tracking data. The system will be designed for 
 virtual production applications, enabling real-time tracking of objects for integrating virtual elements.
 
-**System Components:**
+# System Components:
 
-**Hardware:**
+# Hardware:
 1. **Main Controller:** ESP32 development board with Wi-Fi and Bluetooth capabilities.
 2. **IMU Sensor:** MPU-9250 9-axis motion tracking IC (3-axis accelerometer, 3-axis gyroscope, 3-axis magnetometer).
 3. **Optical Tracking:**
@@ -15,7 +15,7 @@ virtual production applications, enabling real-time tracking of objects for inte
 4. **Power Supply:** Rechargeable lithium-ion battery pack or wired power supply.
 5. **Enclosure and Mounts:** 3D printed enclosures and mounts for housing electronics and attaching to tracked objects.
 
-**Software:**
+# Software:
 1. **Firmware:**
     - IMU sensor data acquisition and filtering
     - Optical tracking data processing (marker detection, pose estimation)
@@ -28,7 +28,7 @@ virtual production applications, enabling real-time tracking of objects for inte
     - User interface for configuration and calibration
     - Integration with virtual production software (e.g., game engines, compositing tools)
 
-**Implementation Milestones:**
+# Implementation Milestones:
 
 1. Set up the development environment and test IMU sensor integration.
 2. Implement IMU data acquisition and filtering algorithms.
@@ -43,7 +43,7 @@ virtual production applications, enabling real-time tracking of objects for inte
 11. Conduct extensive testing and debugging.
 12. Document and release the project.
 
-**Future Enhancements:**
+# Future Enhancements:
 - Support for multiple tracked objects
 - Integration with external motion capture systems
 - Implement advanced tracking algorithms (e.g., model-based tracking, deep learning)
